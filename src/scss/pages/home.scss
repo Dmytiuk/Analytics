@@ -1,0 +1,19 @@
+.section{
+  position: relative;
+  h1{
+    color: $white;
+    font-size: 6vmin;
+  }
+  &__firstscreen{
+    padding: 20% 10%;
+  }
+  &__description{
+    width: 40%;
+  }
+  &__background{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -5;
+  }
+}

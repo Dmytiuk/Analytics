@@ -1,0 +1,11 @@
+@import "normalize/import-now";
+
+@import 'base/typography';
+@import 'base/variables';
+@import 'base/global';
+
+@import 'layouts/header';
+@import 'layouts/footer';
+@import 'pages/home';
+@import 'libs/slick';
+@import 'libs/slick-theme';
