@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="dist/css/main.css">
     <link rel="stylesheet" href="dist/css/animate.css">
     <script src="dist/js/main.js" ></script>
+    <script src="dist/js/libs.js"></script>
     <script src="dist/js/wow.js" ></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -44,16 +45,44 @@
   </header>
 <main>
   <section class="section">
-    <img class="section__background" src="./src/img/background__top.svg">
     <div class="section__firstscreen">
-      <div class="section__description">
+      <div class="section__description wow fadeInLeft animated animated">
         <h1>Monitor your business on real-time dashboard</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet volutpat pellentesque volutpat est. Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam. </p>
         <a class="section__button" href="#">Try for free</a>
       </div>
-      <div class="section__bigdiagrams">
+      <div class="section__bigdiagrams wow fadeIn animated animated">
+        <div class="section__aheaddiagram">
+          <p>Diagram</p>
+            <canvas id="Chart10"></canvas>
+            <p style="float:right">All of diagrams</p>
+        </div>
         <div class="section__bigdiagram">
-
+          <canvas id="Chart1"></canvas>
+        </div>
+        <div class="section__bigdiagram">
+          <canvas id="Chart2"></canvas>
+        </div>
+        <div class="section__bigdiagram">
+          <canvas id="Chart3"></canvas>
+        </div>
+        <div class="section__bigdiagram">
+          <canvas id="Chart4"></canvas>
+        </div>
+        <div class="section__bigdiagram">
+          <canvas id="Chart5"></canvas>
+        </div>
+        <div class="section__bigdiagram">
+          <canvas id="Chart6"></canvas>
+        </div>
+        <div class="section__bigdiagram">
+          <canvas id="Chart7"></canvas>
+        </div>
+        <div class="section__bigdiagram">
+          <canvas id="Chart8"></canvas>
+        </div>
+        <div class="section__bigdiagram">
+          <canvas id="Chart9"></canvas>
         </div>
       </div>
     </div>
@@ -64,6 +93,6 @@
   </div>
 </footer>
 </body>
-
+<script src="dist/js/charts.js"></script>
 
 </html>
