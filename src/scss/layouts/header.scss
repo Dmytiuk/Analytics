@@ -74,7 +74,7 @@
               content: "";
               position: absolute;
               transform: translate(0,-100%);
-              background: $white;
+              background: $orange;
               height: 2px;
               width: 20%;
               bottom: -10px;
@@ -102,6 +102,7 @@
     &:hover{
         color: $white;
         border-color: $white;
+        background: $dark;
       }
   }
   &__menubtn{
@@ -143,4 +144,6 @@
 }
 .sticky{
   height: 70px;
+  background: #0F1F4B;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, .4);
 }
